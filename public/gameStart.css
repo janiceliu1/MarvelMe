@@ -1,0 +1,112 @@
+@font-face {
+        font-family: 'Captain America';
+        src: url("American Captain.ttf");
+}
+
+@font-face {
+        font-family: 'Spiderman';
+        src: url("HOMOARAK.ttf");
+}
+
+
+body {
+    background: -webkit-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    background-image: url("background.jpg");
+    font-family: 'Open Sans', 'Arial', 'Lucida Grande', sans-serif;
+    
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Captain America';
+    width: 50%;
+    background-color: #b40404;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    display: block;
+    text-align: justify;
+}
+
+
+
+.playerCharacter {
+    min-height: 300px;
+    max-height: 300px;
+    height: 20%;
+    min-width: 300px;
+    max-width: 300px;
+    width: 20%;
+    border-radius: 200px;
+    border: 3px solid white;
+    margin: auto;
+
+}
+
+.move {
+    color: white;
+    font-family: 'Captain America';
+    width: 50%;
+    background-color: #b40404;
+    height: 60px;
+    font-size: 50px;
+    margin-left: 6%;
+    text-align: center;
+}
+#player, #computer {
+    width: 50%;
+    display: inline;
+}
+
+#player {
+    float: left;
+}
+
+#computer {
+    float: right;
+}
+
+#contents {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    font-family: 'Open Sans', 'Arial', 'Lucida Grande', sans-serif;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+}
+    
+
+body {
+    background-color: #F38E66;
+    font-family: sans-serif;
+    color: #FECA7B;
+}
+
+.score {
+    font-family: 'Captain America';
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-weight: 500;
+    font-size: 100px;
+    float: left;
+    text-align: center;
+}
+#command {
+    font-family: 'Captain America';
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}

@@ -1,0 +1,178 @@
+@font-face {
+        font-family: 'Captain America';
+        src: url("American Captain.ttf");
+}
+
+@font-face {
+        font-family: 'Spiderman';
+        src: url("HOMOARAK.ttf");
+}
+
+
+body {
+    background: -webkit-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    background-image: url("background.jpg");
+    font-family: 'Open Sans', 'Arial', 'Lucida Grande', sans-serif;
+    
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Captain America';
+    width: 50%;
+    background-color: #b40404;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    display: block;
+    text-align: justify;
+}
+
+h2 {
+    color: white;
+    font-family: 'Captain America';
+    width: 50px;
+    background-color: #b40404;
+    height: 30px;
+    font-size: 20px;
+    margin: 20px;
+    display: inline;
+    text-align: justify;
+}
+
+.button {
+    min-height: 100px;
+    max-height: 200px;
+    height: 20%;
+    min-width: 100px;
+    max-width: 200px;
+    width: 20%;
+    border-radius: 200px;
+    border: 1px solid #fff;
+    margin: auto;
+
+}
+
+.gifMoves {
+    min-height: 200px;
+    max-height: 150px;
+    height: 20%;
+    min-width: 220px;
+    max-width: 170px;
+    width: 20%;
+    border-radius: 150px;
+    margin: auto;
+    border: transparent;
+    
+}
+
+img#attackGif, #defenseGif, #trickGif
+{
+    display: inline;
+    margin: 10px;
+}
+
+#threeGifs {
+    align-content: center;
+
+    display: block;
+    margin: auto;
+    margin-left: 10%;
+    align-items: center;
+    width: 80%;
+    vertical-align: center;
+}
+
+p#attackMsg,#defenseMsg,#trickMsg {
+    vertical-align: center;
+    margin-top: 10px;
+    
+}
+/*
+#defenseGif {
+    display: inline-block;
+}
+
+#trickGif {
+    display: inline-block;
+}*/
+
+#main {
+    width: 100%;
+    height: 70%;
+    display: inline-block;
+
+    
+}
+
+p {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+}
+
+#characters {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 10px;
+}
+
+
+#superImg{
+max-height: 400px;
+    max-width: 400px;
+    /*min-height: 300px;
+    min-width: 300px;*/
+    border-radius: 500px;
+    border: 5px solid #fff;
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+    
+    /*margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+#description {
+    text-align: center;
+    float: left;
+    width: 80%;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 8%;
+    background-color: transparent;
+    color: white;
+    font-family: "Spiderman";
+}
+
+.move {
+    display: inline-block;
+}
+
+#footButt
+{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    font-family: "Captain America";
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    background-color: #b40404;
+    border: transparent;
+}
+
+
+div#footer1 {
+    width: 100%;
+    padding: 10px;
+}
