@@ -28,6 +28,8 @@ h1 {
     margin: 0 auto;
     display: block;
     text-align: justify;
+    padding-top: 20px;
+    padding-bottom: -5px;
 }
 
 #main {
@@ -82,4 +84,13 @@ h1 {
 div#footer1 {
     width: 100%;
     padding: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    font-family: 'Captain America';
+    color: #b40404;
 }

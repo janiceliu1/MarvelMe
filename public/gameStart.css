@@ -80,6 +80,8 @@ p {
 }
 h1 {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: -5px;
 }
     
 
@@ -93,7 +95,7 @@ body {
     font-family: 'Captain America';
     width: 100%;
     display: block;
-    margin: 0 auto;
+    margin-right: auto;
     color: white;
     font-weight: 500;
     font-size: 100px;
@@ -109,4 +111,8 @@ body {
     font-weight: 500;
     font-size: 50px;
     text-align: center;
+}
+
+.move {
+    padding-top: 20px;
 }

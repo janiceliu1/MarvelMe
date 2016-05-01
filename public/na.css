@@ -1,0 +1,31 @@
+font-face {
+        font-family: 'Captain America';
+        src: url("American Captain.ttf");
+}
+
+@font-face {
+        font-family: 'Spiderman';
+        src: url("HOMOARAK.ttf");
+}
+
+
+body {
+    background: -webkit-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    background-image: url("background.jpg");
+    font-family: 'Open Sans', 'Arial', 'Lucida Grande', sans-serif;
+    
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Captain America';
+    width: 50%;
+    background-color: #b40404;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    display: block;
+    text-align: justify;
+}

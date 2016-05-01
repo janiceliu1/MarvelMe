@@ -4,17 +4,15 @@ var computerChar = 0;
 
 var socket = io("http://localhost:8080");
 socket.on("hello", function (data) {
-    console.log(data[1]);
-    var pass = data[1];
-    /*if("4" in data){
+    console.log(data[2]);
+    var pass = data[2];
+    if(pass == 0){
+        pass = 3;
+    }else if(pass == 2){
         pass = 1;
-    }
-    if("2" in data){
+    }else if(pass == 4){
         pass = 2;
     }
-    if("0" in data){
-        pass = 3;
-    }*/
     console.log(pass);
     receiveMove(pass);
  });
@@ -36,7 +34,7 @@ function done() {
     else if (scorePlayer == scoreComputer)
     {
         var playerMv = document.getElementById("command");
-        playerMv.textContent = "IT'S A TIE";
+        playerMv.textContent = "";
     }
     else
     {
@@ -152,6 +150,14 @@ function receiveMove(data) {
     changeScore (move, computerMove);
     displayMessage("player", move);
     displayMessage("computer", computerMove);
+    if(scorePlayer === 3)
+    {
+            window.location.replace('closing.html?'+1);
+    }
+    if(scoreComputer === 3)
+    {
+            window.location.replace('closing.html?'+0);
+    }
         
 }
 

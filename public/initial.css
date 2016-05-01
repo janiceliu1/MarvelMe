@@ -15,11 +15,23 @@ body {
     font-family: 'Open Sans', 'Arial', 'Lucida Grande', sans-serif;
     
 }   
-
-body {
+p#again {
     background-color: #b40404;
+    font-family: 'Captain America';
+    padding-top: 20px;
+    padding-bottom: -5px;
+    font-size: 100px;
+        text-align: center;
+    color: white;
+
 }
 
+#playAgain {
+    font-size: 100px;
+    font-family: 'Captain America';
+
+    
+}
 
 h1 {
     color: white;
@@ -33,28 +45,24 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    text-align: justify;
     margin-top: 50px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-p#again 
+
+
+#playAgain
 {
     display: block;
     margin: 0 auto;
-    width: 70%;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     font-family: "Captain America";
     font-weight: 200;
-    font-size: 70px;
+    font-size: 20px;
     color: white;
     background-color: #b40404;
     border: transparent;
-    padding-top:20px;
-    padding-bottom:15px;
-    padding-left: 10px;
-
 }
 
 
@@ -63,8 +71,6 @@ playAgain {
     margin: auto;
     text-align: center;
 }
-
-
 
 footer {
     position: absolute;
