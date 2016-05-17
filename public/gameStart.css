@@ -93,14 +93,17 @@ body {
 
 .score {
     font-family: 'Captain America';
-    width: 100%;
+    width: 50%;
+    margin-left: 5%;
     display: block;
     margin-right: auto;
     color: white;
     font-weight: 500;
-    font-size: 100px;
+    font-size: 200px;
     float: left;
     text-align: center;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+
 }
 #command {
     font-family: 'Captain America';
